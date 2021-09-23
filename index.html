@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio-Vaishnavi G. Borkar</title>
+    <link rel="icon" href="https://img.icons8.com/plumpy/24/4a90e2/v.png" type="image/x-icon">
     <link rel="stylesheet" href="./Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,11 +14,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="user" id="profile"> 
         <!-- left flex start - user photo name Navigations -->
     <div class="left">
-        <img class="profile" src="./images/dp.jpg" alt="not found" >
+        <img class="profile" src="./images/photo.jpg" alt="not found" >
             <!-- <h2>Vaishnavi Borkar</h2> -->
             <div class="navigateLinks">
               <a href="https://github.com/VaishnaviBorkar/" class="linl-anc">
@@ -30,15 +32,14 @@
             <div class="navigation">
                 <ol>
                     <a href="#profile" class="anchor"><li>Home</li></a><br>
-                    <a href="#about-me" class="anchor"><li>About Me</li></a><br>
                     <a href="#skills" class="anchor"><li>Skills</li></a><br>
                     <a href="#education" class="anchor"><li>Education</li></a><br>
+                    <a href="#Projects" class="anchor"><li>Projects</li></a><br>
                     <a href="#contact-me" class="anchor"><li>Contact Me</li></a>
                   
                 </ol>
             </div>
     </div>
-</header>
     <!-- left flex end -->
     <!-- right flex starts  -->
     <div class="right" style="color:white;">
@@ -51,10 +52,10 @@
    <p>I consider myself as a very focused person and I always work towards my goals in an very efficient manner.
    <br/><br/> My goal is to make the carrier in IT industry as a Full Stack Developer.</p>
     <!-- <marquee behavior="alternate" width="180px" style=margin-left:180px; direction="right" scrollamount="2"><h3>Open to Work</h3></marquee> -->
-    <a href="#about-me" style="text-decoration:none;"><h3 class="btn">Know More</h3> </a> 
-</div>
+    <a href="images/Resume.pdf" style="text-decoration:none;"><h3 class="btn">Resume</h3> </a> 
+  </div>
          <!-- About me section -->
-      <div id="about-me">
+      <!-- <div id="about-me">
       <h2 class="heading">About Me</h2>
       <hr width="10%" style=margin-left:382px;> 
       <div class="about-flex">
@@ -73,11 +74,12 @@
         <a href="./images/RESUMEBorkar.pdf" style="text-decoration:none;"><h3 class="btn" style="margin-left:360px;">Resume</h3> </a> 
 
     </div>
-      </div>
+      </div> -->
        <!-- About me section ends-->
       <!-- skills sections -->
+      <div class=skils_section>
       <h2 class="heading" id="skills">My Skills</h2>
-      <hr width="8%" style=margin-left:390px;> 
+      <!-- <hr width="8%" style=margin-left:390px;>  -->
       <div class="w-skills">
           <div class="s_container">
             <h4>HTML</h4>
@@ -89,11 +91,11 @@
             <h4>Javascript</h4>
           </div>
           <div class="s_container">
-            <h4>Vbscript</h4>
+            <h4>ReactJs</h4>
           </div>
       </div>
       <h2 class="heading">Other Skills</h2>
-      <hr width="10%" style=margin-left:395px;> 
+      <!-- <hr width="10%" style=margin-left:395px;>  -->
       <div class="o-skills">
           <div class="os_container">
             <h4>C</h4>
@@ -108,9 +110,10 @@
             <h4>Mysql</h4>
           </div>
       </div>
+      </div>
       <!-- education section starts -->
     <h2 class="heading" id="education">Education </h2>
-    <hr width="9%" style=margin-left:390px;> 
+    <!-- <hr width="9%" style=margin-left:390px;>  -->
     <div class="education">
           <div class="ug">
             <i>2021 Present</i>
@@ -136,18 +139,62 @@
           </div>
 
     </div>
+    <!-- Project section -->
+    <h2 class="heading" id="Projects">Projects</h2>
+    <div class="Project-section">
+    <div class="project-card">
+      <div class="flip-card-inner">
+      <a href="https://vaishnaviborkar.github.io/CoWin-Clone-Project/">
+    <img src="images/Cowin-Clone.png"/>
+    </a>
+    <!-- <h4>Cowin Clone Website</h4> -->
+    <p>Using HTML,CSS,Javascript,AJAX</p>
+     <div class="centered"><h4>Cowin Clone Website</h4>
+      </div>
+    </div>
+    </div>
+      <div class="project-card">
+        <div class="flip-card-front">
+        <a href="https://github.com/VaishnaviBorkar/Covid-19-Hospital-Management-System-java-Swing/tree/master">
+        <img src="images/java-covid hp.png"/>
+      </a>
+      <p>java swing & Mysql Database</p>
+      <div class="centered"><h4>Covid-19-Hospital Management System</h4>
+      </div>
+      </div>
+      </div>
+      <div class="project-card">
+        <div class="flip-card-front">
+          <a href="https://vaishnaviborkar.github.io/GitHubClone/"> 
+            <img src="images/github-clone.png"/>
+          </a>
+          <p>HTML,CSS,Bootstrap,Javascript,AJAX </p>
+          <div class="centered"><h4>GitHub Clone Website</h4>
+          </div>
+      </div>
+    </div>
+
+    </div>
 <!-- contact me section  -->
     <h2 class="heading" id="contact-me">Contact Me</h2>
-    <hr width="10%" style=margin-left:395px;> 
+    <!-- <hr width="10%" style=margin-left:395px;>  -->
     <div class="contact-section">
-      <a href="tel:+8999837751">
-      <img src="https://img.icons8.com/ios-filled/40/4a90e2/apple-phone.png"/> 
-        <p class="phone-i">899983775</p>
+      <div class="number">
+        <a href="tel:+8999837751">
+          <img src="https://img.icons8.com/ios-filled/100/4a90e2/apple-phone.png"/>
+          <h2>Phone</h2>
+          <p > 899983775</p>
+          </a>
+      </div>
+     <div class="email">
+      <a href="mailto:borkarvaishnavi85@gmail.com">
+        <img src="https://img.icons8.com/ios/80/4a90e2/gmail-new.png"/>
+  
+        <h2>Email</h2>
+        <p>borkarvaishnavi85@gmail.com</p>
       </a>
-        <a href="mailto:borkarvaishnavi85@gmail.com">
-        <img src="https://img.icons8.com/ios/40/4a90e2/gmail-new.png"  style="margin-left:280px;"/>
-        <p class="email-i">Borkarvaishnavi85@gmail.com</p>
-      </a>
+     </div>
+     
   </div>
   <div  class="footer">
     <a href="#profile">
@@ -156,6 +203,8 @@
   </div>
       <!-- <div class="footer">this is footer</div> -->
     </div> 
+
   <!-- right flex ends  -->
+</header>
 </body>
 </html>
